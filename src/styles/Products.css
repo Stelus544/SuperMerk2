@@ -1,0 +1,116 @@
+/* Product Grid */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding: 0.155rem; /* Equivalent to p-1 */
+}
+
+/* Product Card */
+.product-card {
+  flex-shrink: 0;
+  margin: 1.5rem; /* Equivalent to m-6 */
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  max-width: 20rem; /* Equivalent to max-w-xs */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Equivalent to shadow-lg */
+}
+
+/* Card Background Colors */
+.orange-card {
+  background-color: #f97316; /* Equivalent to bg-orange-500 */
+}
+
+.teal-card {
+  background-color: #14b8a6; /* Equivalent to bg-teal-500 */
+}
+
+/* Card SVG */
+.card-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 2rem; /* Equivalent to mb-8 */
+}
+
+/* Card Image Container */
+.card-image-container {
+  position: relative;
+  padding-top: 2.5rem; /* Equivalent to pt-10 */
+  padding-left: 2.5rem; /* Equivalent to px-10 */
+  padding-right: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card Gradient Overlay */
+.card-gradient-overlay {
+  position: absolute;
+  width: 12rem; /* Equivalent to w-48 */
+  height: 12rem; /* Equivalent to h-48 */
+  bottom: 0;
+  left: 0;
+  margin-bottom: -6rem; /* Equivalent to -mb-24 */
+  margin-left: 0.75rem; /* Equivalent to ml-3 */
+}
+
+/* Card Image */
+.card-image {
+  position: relative;
+  width: 10rem; /* Equivalent to w-40 */
+}
+
+/* Card Content */
+.card-content {
+  position: relative;
+  color: #ffffff; /* Equivalent to text-white */
+  padding-left: 1.5rem; /* Equivalent to px-6 */
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem; /* Equivalent to pb-6 */
+  margin-top: 1.5rem; /* Equivalent to mt-6 */
+}
+
+/* Card Category */
+.card-category {
+  display: block;
+  opacity: 0.75; /* Equivalent to opacity-75 */
+  margin-bottom: -0.25rem; /* Equivalent to -mb-1 */
+}
+
+/* Card Details */
+.card-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Card Title */
+.card-title {
+  display: block;
+  font-weight: 600; /* Equivalent to font-semibold */
+  font-size: 1.25rem; /* Equivalent to text-xl */
+}
+
+/* Card Price */
+.card-price {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* Equivalent to bg-white */
+  color: #f97316; /* Equivalent to text-orange-500 */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  font-size: 0.75rem; /* Equivalent to text-xs */
+  font-weight: 700; /* Equivalent to font-bold */
+  padding-left: 0.75rem; /* Equivalent to px-3 */
+  padding-right: 0.75rem;
+  padding-top: 0.5rem; /* Equivalent to py-2 */
+  padding-bottom: 0.5rem;
+  line-height: 1; /* Equivalent to leading-none */
+}
+
+/* Teal Price Variant */
+.teal-price {
+  color: #14b8a6; /* Equivalent to text-teal-500 */
+}

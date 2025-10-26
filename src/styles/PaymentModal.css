@@ -1,0 +1,63 @@
+.pm-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.45);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+}
+.pm-modal{
+  background:#fff;
+  width:90%;
+  max-width:420px;
+  border-radius:8px;
+  padding:20px 18px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+  position:relative;
+}
+.pm-close{
+  position:absolute;
+  right:8px;
+  top:6px;
+  border:none;
+  background:transparent;
+  font-size:22px;
+  cursor:pointer;
+}
+
+pm-payment-methods{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-top:10px;
+}
+
+.pm-yape{
+  width:60px;
+  margin:10px 0;
+  border-radius: 30px;
+}
+.pm-visa{
+  width:60px;
+  margin:10px 0 10px 10px;
+}
+.pm-nequi{
+  width:60px;
+  margin:10px 0 10px 10px;
+}
+.pm-bvd{
+  width:60px;
+  margin:10px 0 10px 10px;
+}
+.pm-rusia{
+  width:60px;
+  margin:10px 0 10px 10px;
+}
+.pm-title{margin:0 0 6px 0}
+.pm-sub{margin:0 0 12px 0;color:#444;font-size:14px}
+.pm-form{display:flex;flex-direction:column;gap:8px}
+.pm-form input{padding:8px;border:1px solid #ddd;border-radius:4px}
+.pm-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
+.pm-cancel{background:#eee;border:1px solid #ddd;padding:8px 12px;border-radius:6px;cursor:pointer}
+.pm-pay{background:#2b8aef;color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
