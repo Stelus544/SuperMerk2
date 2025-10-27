@@ -26,11 +26,23 @@
 
 /* Card Background Colors */
 .orange-card {
-  background-color: #f97316; /* Equivalent to bg-orange-500 */
+  background-color: #0e123c; /* Equivalent to bg-orange-500 */
 }
 
 .teal-card {
-  background-color: #14b8a6; /* Equivalent to bg-teal-500 */
+  background-color: #19521c; /* Equivalent to bg-teal-500 */
+}
+
+.blue-card {
+  background-color: #364d8c; /* Equivalent to bg-blue-500 */
+}
+
+.gray-card {
+  background-color: #4b5563; /* Equivalent to bg-gray-500 */
+}
+
+.purple-card {
+  background-color: #5b21b6; /* Equivalent to bg-purple-700 */
 }
 
 /* Card SVG */
@@ -117,5 +129,5 @@
 
 /* Teal Price Variant */
 .teal-price {
-  color: #14b8a6; /* Equivalent to text-teal-500 */
+  color: #117367; /* Equivalent to text-teal-500 */
 }

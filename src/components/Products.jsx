@@ -1,6 +1,10 @@
 import React from "react";
 import '../styles/Products.css';
 import Rey from '../assets/rey.png';
+import Ajax from '../assets/ajax.png';
+import Bonaropa from '../assets/bonaropa.png';
+import Vidrios from '../assets/limpiavidrios.png';
+import Fabuloso from '../assets/fabuloso.png';
 
 const ProductCardGrid = () => {
   return (
@@ -46,10 +50,10 @@ const ProductCardGrid = () => {
           />
         </div>
         <div className="card-content">
-          <span className="card-category">Indoor</span>
+          <span className="card-category"></span>
           <div className="card-details">
-            <span className="card-title">Peace Lily</span>
-            <span className="card-price">$36.00</span>
+            <span className="card-title">Jabon Rey</span>
+            <span className="card-price">$15.000</span>
           </div>
         </div>
       </div>
@@ -89,20 +93,21 @@ const ProductCardGrid = () => {
           ></div>
           <img
             className="card-image"
-            src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png"
+            src={Ajax}
             alt=""
           />
         </div>
         <div className="card-content">
-          <span className="card-category">Outdoor</span>
+          <span className="card-category"></span>
           <div className="card-details">
-            <span className="card-title">Monstera</span>
-            <span className="card-price teal-price">$45.00</span>
+            <span className="card-title">Limpiador
+            </span>
+            <span className="card-price teal-price">$15.000</span>
           </div>
         </div>
       </div>
       <div className="product-grid">
-        <div className="product-card orange-card">
+        <div className="product-card blue-card">
           <svg
             className="card-svg"
             viewBox="0 0 375 283"
@@ -138,15 +143,15 @@ const ProductCardGrid = () => {
             ></div>
             <img
               className="card-image"
-              src={Rey}
+              src={Bonaropa}
               alt=""
             />
           </div>
           <div className="card-content">
-            <span className="card-category">Indoor</span>
+            <span className="card-category"></span>
             <div className="card-details">
-              <span className="card-title">Peace Lily</span>
-              <span className="card-price">$36.00</span>
+              <span className="card-title">Bonaropa</span>
+              <span className="card-price">$25.000</span>
             </div>
           </div>
         </div>
@@ -154,7 +159,7 @@ const ProductCardGrid = () => {
         </div>
       </div>
       <div className="product-grid">
-        <div className="product-card orange-card">
+        <div className="product-card gray-card">
           <svg
             className="card-svg"
             viewBox="0 0 375 283"
@@ -190,15 +195,15 @@ const ProductCardGrid = () => {
             ></div>
             <img
               className="card-image"
-              src={Rey}
+              src={Vidrios}
               alt=""
             />
           </div>
           <div className="card-content">
-            <span className="card-category">Indoor</span>
+            <span className="card-category"></span>
             <div className="card-details">
-              <span className="card-title">Peace Lily</span>
-              <span className="card-price">$36.00</span>
+              <span className="card-title">Limpiavidrios</span>
+              <span className="card-price">$15.000</span>
             </div>
           </div>
         </div>
@@ -206,7 +211,7 @@ const ProductCardGrid = () => {
         </div>
       </div>
       <div className="product-grid">
-        <div className="product-card orange-card">
+        <div className="product-card purple-card">
           <svg
             className="card-svg"
             viewBox="0 0 375 283"
@@ -242,15 +247,15 @@ const ProductCardGrid = () => {
             ></div>
             <img
               className="card-image"
-              src={Rey}
+              src={Fabuloso}
               alt=""
             />
           </div>
           <div className="card-content">
-            <span className="card-category">Indoor</span>
+            <span className="card-category"></span>
             <div className="card-details">
-              <span className="card-title">Peace Lily</span>
-              <span className="card-price">$36.00</span>
+              <span className="card-title">Fabuloso</span>
+              <span className="card-price">$20.000</span>
             </div>
           </div>
         </div>
