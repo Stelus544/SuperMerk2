@@ -17,7 +17,7 @@ function App() {
         <nav className="navbar" style={{borderRadius:3}}>
           <div className="nav-brand"><a href='/Home'>Super Mendoza Market</a></div>
           <div className="nav-links">
-            <Link to="/Home">Inicio</Link>
+            <Link to="/">Inicio</Link>
             <Link to="/About">Nosotros</Link>
             <Link to="/products">Productos</Link>
             <Link to="/contact">Contacto</Link>
@@ -26,7 +26,7 @@ function App() {
 
         {/* Contenido que cambia según la ruta */}
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<Products />} />
