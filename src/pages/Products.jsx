@@ -4,8 +4,9 @@ import ProductCardGrid from '../components/Products'
 export default function HomeProducts() {
   return (
     <div className="HomeProducts" id="HomeProducts">
-      <ProductCardGrid />
-      <ProductCardGrid/>
+      <div>
+        <ProductCardGrid />
+      </div>
     </div>
   )
 }
